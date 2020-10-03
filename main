@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>First try CSS</title>
+   <style>
+    body {
+          background-color: #b7d7e8;
+         }
+
+    h1 {
+        border-bottom: 8px dotted #bccad6;
+        background-color:#f1e3dd;
+        opacity: 0.6;
+        color: #667292;
+        font-size: 40px;
+       }
+
+    h2 {
+        border-bottom: 1px dashed red;
+        color:red;
+        font-size: 35px;
+       }
+
+    p {
+       font-size: 22px;
+       border-radius: 10px;
+      }
+                        
+        p.paragraph1 {
+            border: 2px solid red;
+            background-color: violet;
+            color: blue;
+            margin: 20px auto 50px auto;
+            padding: 10px;
+            width: 80%;
+            height: 100%;
+            }
+                        
+        p#paragraph2 {
+            outline: 4px solid red;
+            background-color: yellow;
+            margin: 20px auto 50px auto;
+            color: #00f;
+            padding:20px;
+            width: 80%;
+            height: 100%;
+            }
+    </style>
+    </head>
+    <body>
+        <h1>The main paragraph</h1>
+        <p class="paragraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit laoreet id donec ultrices. Egestas congue quisque egestas diam in. Sapien pellentesque habitant morbi tristique senectus et netus et. Sit amet nisl suscipit adipiscing. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Mi proin sed libero enim sed faucibus turpis in. Vitae purus faucibus ornare suspendisse sed nisi. Orci ac auctor augue mauris augue neque.
+        </p>
+        <h2>Subtitle</h2>
+        <p id="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit laoreet id donec ultrices. Egestas congue quisque egestas diam in. Sapien pellentesque habitant morbi tristique senectus et netus et. Sit amet nisl suscipit adipiscing. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Mi proin sed libero enim sed faucibus turpis in. Vitae purus faucibus ornare suspendisse sed nisi. Orci ac auctor augue mauris augue neque.
+       </p>
+   </body>
+</html>
